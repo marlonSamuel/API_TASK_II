@@ -1,0 +1,5 @@
+functions:
+  - name: yourFunctionName
+    entryPoint: yourFunctionEntryPoint
+    runtime: nodejs18
+    ...

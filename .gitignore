@@ -1,0 +1,71 @@
+# Node modules
+/functions/node_modules/
+
+# Compiled output
+/functions/dist/
+/functions/build/
+/functions/*.js
+
+# TypeScript output
+/functions/*.tsbuildinfo
+/functions/tsconfig.tsbuildinfo
+
+# Logs
+/functions/*.log
+/functions/*.log.*
+
+# dotenv environment variables file
+/functions/.env
+
+# Firebase Functions
+/functions/node_modules/
+
+# IDE and Editor directories
+/.vscode/
+/.idea/
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# npm package lock file (can be useful to keep, but might be ignored in some cases)
+package-lock.json
+yarn.lock
+
+# Coverage reports
+/functions/coverage/
+
+# Compiled TypeScript declaration files
+/functions/*.d.ts
+
+# Miscellaneous
+/functions/*.swp
+/functions/*.swo
+/functions/*.swn
+
+# Optional npm cache directory
+/functions/.npm
+
+# Build artifacts
+/functions/*.tgz
+/functions/*.zip
+
+# Dependency directories
+/functions/.pnp
+/functions.pnp.js
+
+# Environment variables
+/functions/config/
+
+# Firebase local emulator
+/functions/firebase-debug.log
+/functions/firebase-debug-*.log
+/functions/firebase.json
+
+# Ignore configuration files
+/functions/config/*.json
+
+# Ignore key
+private-key-atom.json
